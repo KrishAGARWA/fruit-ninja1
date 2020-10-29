@@ -135,8 +135,8 @@ function enemy(){
   if(positio===2){
      e.x=400
      e.addAnimation("run",eImage) 
-      e.velocityX=-7+(score/10)
-   }
+      e.velocityX=-(7+(score/10)
+)   }
   
   enemyGroup.add(e)
    e.lifetime=130
