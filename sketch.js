@@ -18,12 +18,12 @@ function preload(){
   f4=loadImage("fruit4.png")
   eImage=loadAnimation("alien3.jpg")
   g=loadSound("gameover.mp3")
- backgroundi=loadImage("i.jpg")
+// backgroundi=loadImage("i.jpg")
 }
 function setup(){
   createCanvas(400,400)
- background=createSprite(0,0,600,600)
-   background.addImage(backgroundi);
+ background(220)
+   //background.addImage(backgroundi);
 fruitGroup=new Group()
   enemyGroup=new Group();
 score=0
@@ -35,7 +35,7 @@ score=0
 
 }
 function draw(){
- //  background(220)
+  background(220)
  
     text("score"+score,320,30)
   if(gameState===PLAY){
