@@ -18,12 +18,12 @@ function preload(){
   f4=loadImage("fruit4.png")
   eImage=loadAnimation("alien3.jpg")
   g=loadSound("gameover.mp3")
-// backgroundi=loadImage("i.jpg")
+
 }
 function setup(){
   createCanvas(400,400)
  background(220)
-   //background.addImage(backgroundi);
+   
 fruitGroup=new Group()
   enemyGroup=new Group();
 score=0
